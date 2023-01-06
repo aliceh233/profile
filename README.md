@@ -22,5 +22,5 @@ Create/Read/Delete tweet through comment line, following MVC Architecture, incre
 
 ### Front-end development
 
-- <b>[Simple Interests Calculator](https://github.com/aliceh233/vftvk-Simple-Interest-Calculator)</b>: A simple interest calculator build with HTML5, CSS3 and Javascripts, [page-version](https://aliceh233.github.io/vftvk-Simple-Interest-Calculator/)
+- <b>[Simple Interests Calculator](https://github.com/aliceh233/vftvk-Simple-Interest-Calculator)</b>: A simple interest calculator is implemented with HTML5, CSS3 and Javascripts, [page-version](https://aliceh233.github.io/vftvk-Simple-Interest-Calculator/)
 - <b>[A To-do list (Framwork: React.js)](https://github.com/aliceh233/uqwxd-react_labs)</b>: A todo-list implemented with React.js, the users are able to add todos, delete todos and edit todos, the data stored as cache.
