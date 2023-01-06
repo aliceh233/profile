@@ -6,7 +6,7 @@ SDE | Full Stack Developer | UBC class of 2022
 A recent graduate of the University of British Columbia, I earned my Bachelor's degree in Mathematics with a minor in Computer Science. During my undergraduate life, I learned a lot about coding languages and algorithms. Having a passion for front-end development, I spent three months working at Manong Technology Ltd., gaining experience in HTML/CSS, Javascript, and Vue.js and gaining experience with Agile teams and Sass. My work at Jarvis Consulting Group gave me the opportunity to explore my interests and learn more about problem-solving, as well as gain experience in an Agile scrum team environment. The experience I had to make that I am not limited to front-end development but also full-stack development. I am a positive-thinking person who loves problem-solving. It is my belief that technology is changing our lives, and I would like to be among the top developers who implement software to improve people's lives and resolve issues. It is my hope that I can secure a full-stack developer position where I can grow and use my skills to help the organization thrive.
 
 ## Skill Sets
-- <b>Language:</b> HTML&CSS(Bootstrap), JavaScript (Vue.js, Node.js), Java (Sprint), Bash, Python, C/C++
+- <b>Language:</b> HTML&CSS(Bootstrap), JavaScript (Vue.js, Node.js, React.js), Java (Sprint), Bash, Python, C/C++
 - <b>Database:</b>  SQL (Sqlite3, PostgreSQL)
 - <b>Other:</b> Maven, Docker, Git, Linux comment, Network Security Protocol, Algorithm, AI, Computer Graphics, REST
 API, Virtual machine, Google Cloud Platform, Postman
