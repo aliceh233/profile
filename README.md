@@ -11,6 +11,19 @@ A recent graduate of the University of British Columbia, I earned my Bachelor's 
 - <b>Other:</b> Maven, Docker, Git, Linux comment, Network Security Protocol, Algorithm, AI, Computer Graphics, REST
 API, Virtual machine, Google Cloud Platform, Postman
 
+## Educations
+
+### Bachelor's degree in Science | The University of British Columbia
+- Major in Mathematics
+- Minor in Computer Science, focused on Software Construction, Algorithms and Data Structures, covering various programming languages for C, C++, Java, WebGL and etc.
+
+### Certificates
+- CAD0210EN: Front-End Application Development with React @IBM, Credential ID: [99c88b90b8f24bc5b1250588fd874b3a](https://courses.edx.org/certificates/99c88b90b8f24bc5b1250588fd874b3a)
+- CAD101EN: Introduction to Web Development with HTML5, CSS3, and JavaScript @IBM, Credential ID: [23427e7caf064a2db2f8519554a61772](https://courses.edx.org/certificates/23427e7caf064a2db2f8519554a61772)
+- User experience design @Brainstations, Credential ID: 830-779-237.
+- Web Developement @Brainstations, Credential ID: 830-779-237.
+- CS50's Introduction to Computer Science @Harvard University, Credential ID: [cff8330d6a6545c0a735c4f72612f8c7](https://courses.edx.org/certificates/cff8330d6a6545c0a735c4f72612f8c7)
+
 ## Projects
 
 ### Back-end development
