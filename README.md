@@ -36,5 +36,5 @@ Create/Read/Delete tweet through comment line, following MVC Architecture, incre
 ### Front-end development
 
 - <b>[Simple Interests Calculator](https://github.com/aliceh233/vftvk-Simple-Interest-Calculator)</b>: A simple interest calculator is implemented with HTML5, CSS3 and Javascripts, [page-version](https://aliceh233.github.io/vftvk-Simple-Interest-Calculator/)
-- <b>[Company's Budget Allocation](https://github.com/aliceh233/uqwxd-react_labshttps://github.com/aliceh233/ejtos-react_budget_app)</b>: A Company's Budget Allocation, the user are able to plan company's budgets on this website.[page-version](https://aliceh233.github.io/ejtos-react_budget_app/)
-- <b>[A demo website for a industry](https://github.com/aliceh233/IndustryWebsiteDemo)</b>: using HTML, CSS and Javascripts only, [page-version](https://aliceh233.github.io/IndustryWebsiteDemo/)
+- <b>[Company's Budget Allocation](https://github.com/aliceh233/ejtos-react_budget_app)</b>: A Company's Budget Allocation, the user is able to plan the company's budgets on this website. This project was developed by using React.js. [page-version](https://aliceh233.github.io/ejtos-react_budget_app/)
+- <b>[A demo website for a industry](https://github.com/aliceh233/IndustryWebsiteDemo)</b>: A Simple Interests Calculator, using HTML, CSS and Javascript only, [page-version](https://aliceh233.github.io/IndustryWebsiteDemo/)
