@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shuffle Deck of Cards And Draw Specific Amount Of Cards</title>
+    <style>
+        .deck {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin: auto;
+            padding: 10px;
+            border: 1px solid #000;
+            width: 600px;
+        }
+        .card {
+            margin: 5px;
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            height: fit-content;
+        }
+        .container {
+            margin: auto;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            row-gap: 10px;
+            width: 620px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shuffle Deck of Cards And Draw Specific Amount Of Cards</h1>
+        <div id="original-deck" class="deck">
+            <h3>Original Deck</h3>
+        </div>
+        <button onclick="shuffleAndDisplayDeck()">Shuffle Deck</button>
+        <div id="shuffled-deck" class="deck">
+            <h3>Shuffled Deck</h3>
+        </div>
+        <input type="number" id="draw-count" placeholder="Number of cards to draw">
+        <button onclick="drawCards()">Draw Cards</button>
+        <div id="drawn-cards" class="deck">
+            <h3>Drawn Cards</h3>
+        </div>
+        <button onclick="resetEverything()">Reset</button>
+    </div>
+
+    <script>
+        function createDeck() {
+            const suits = ['♥', '♦', '♣', '♠'];
+            const ranks = [
+                'A', '2', '3', '4', '5', '6', '7', '8', '9', '10','J', 'Q', 'K'
+            ];
+
+            let deck = [];
+            for (let suit of suits) {
+                for (let rank of ranks) {
+                    deck.push(`${rank}${suit}`);
+                }
+            }
+            return deck;
+        }
+
+        function shuffleDeck(deck) {
+            // Loop through the deck starting from the last element and moving to the first
+            for (let currentIndex = deck.length - 1; currentIndex > 0; currentIndex--) {
+                // Generate a random index between 0 and the current index (inclusive)
+                const randomIndex = Math.floor(Math.random() * (currentIndex + 1));
+        
+                // Swap the elements at the current index and the random index
+                const temp = deck[currentIndex];
+                deck[currentIndex] = deck[randomIndex];
+                deck[randomIndex] = temp;
+            }
+            // Return the shuffled deck
+            return deck;
+        }
+
+        function displayDeck(deck, elementId) {
+            const deckElement = document.getElementById(elementId);
+            deckElement.innerHTML = deck.map(card => `<div class="card">${card}</div>`).join('');
+        }
+
+        function shuffleAndDisplayDeck() {
+            const deck = createDeck();
+            shuffledDeck = shuffleDeck([...deck]);
+            displayDeck(shuffledDeck, 'shuffled-deck');
+        }
+
+        function drawCards() {
+            const drawCount = parseInt(document.getElementById('draw-count').value);
+            if (isNaN(drawCount) || drawCount <= 0) {
+                alert('Please enter a valid number of cards to draw.');
+                return;
+            }
+
+            if (drawCount > shuffledDeck.length) {
+                alert('Not enough cards in the deck to draw that many.');
+                return;
+            }
+
+            const drawnCards = shuffledDeck.splice(0, drawCount);
+            displayDeck(drawnCards, 'drawn-cards');
+            displayDeck(shuffledDeck, 'shuffled-deck');
+        }
+
+        function resetEverything() {
+            location.reload()
+        }
+
+        // Initiate the deck once load
+        document.addEventListener('DOMContentLoaded', () => {
+            const deck = createDeck();
+            displayDeck(deck, 'original-deck');
+        });
+    </script>
+</body>
+</html>
