@@ -5,7 +5,7 @@ This is a front-end program for shuffling a deck and drawing a specific amount o
 ## Manual
 
 - Step 1: Pull the whole files from the registry.
-- Step 2: Open the HTML file under the "Deck Shuffle and Draw Program" folder.
+- Step 2: Open the HTML file (index.html) under the "Deck Shuffle and Draw Program" folder.
 - Step 3: Enjoy the game!
 
 ## Explanation
